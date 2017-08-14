@@ -1,0 +1,9 @@
+{
+  "version" : 20160513,
+  "zip-command" : "zip memebot.zip memebot/app.json memebot/entities/*.json memebot/actions.json memebot/stories.json memebot/expressions.json",
+  "data" : {
+    "name" : "memebot",
+    "description" : "tpm",
+    "lang" : "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "data" : {
+    "lookups" : [
+      "free-text",
+      "keywords"
+    ],
+    "name" : "intent",
+    "lang" : "en",
+    "exotic" : false,
+    "id" : "intent",
+    "values" : [
+      {
+        "value" : "danger",
+        "expressions" : [
+          "danger",
+          "risk"
+        ]
+      },
+      {
+        "value" : "stank",
+        "expressions" : [
+          "negative",
+          "stank"
+        ]
+      },
+      {
+        "value" : "supernormal",
+        "expressions" : [
+          "spooky",
+          "supernormal"
+        ]
+      }
+    ],
+    "doc" : "User-defined entity",
+    "builtin" : false
+  }
+}
